@@ -1,4 +1,4 @@
-This is the supplementary materials folder for FSE 2025 submission "What Properties Affect Boolean Formula Comprehension in Formal Specifications?"
+This repository contains supporting materials for the paper "What Properties Affect Boolean Formula Comprehension in Formal Specifications?"
 
 It contains the following folder structure and files:
 
