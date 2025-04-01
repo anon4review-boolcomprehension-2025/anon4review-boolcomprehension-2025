@@ -7,7 +7,7 @@ Experiment Design:
 
 Consent.pdf - the consent form of the experiment platform
 Instructions.pdf - the instructions page of the experiment platform
-formula_corpus.csv - the corpus of formulas filtered from the Spectra specifications, divided by the criteria in Section IV.A
+formula_corpus.csv - the corpus of formulas filtered from the Spectra specifications, divided by the criteria in Section 4.1
 
 
 Experiment Results:
@@ -15,11 +15,12 @@ Experiment Results:
 raw_data.csv - the results and the demographic data of 181 participants
 category_results.csv - the statistical data and analysis of each test category (based on the raw data)
 formula_results.csv - the statistical data of each formula pair (based on the raw data)
+additional_results.csv - the statistical data according to the additional categories and properties
 
 
 Refactoring Procedure:
 
-refactoring_procedure_data.csv - the data of the refactoring procedure execution on the formula corpus, including running times, the refactored formula, and reading complexity scores before and after
+refactoring_procedure_runtimes.csv - the data of the refactoring procedure execution on the formula corpus, including running times, the refactored formula, and reading complexity scores before and after
 
 refactoring_procedure.jar - to execute the jar, run `java -jar refactoring_procedure.jar '[FORMULA] [NUM_RESULTS]'.
 The formula syntax accepts the following operators: "&", "|", "->", "<->", "!". The top-level formula as well as all subformulas must be wrapped in parentheses. In a Windows environment, double quotation marks should be used instead of single quotation marks as in Unix environments
@@ -41,4 +42,10 @@ Example command:
 
 With output:
 
-`21.69`
+`21.26`
+
+
+Refactoring Experiment:
+
+formulas_corpus_followup.csv - the corpus of formulas filtered from the Spectra specifications, for the followup experiment
+raw_data_followup.csv - the results and the demographic data of 57 participants
